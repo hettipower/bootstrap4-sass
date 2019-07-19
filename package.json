@@ -1,19 +1,29 @@
 {
     "name": "bootstrap4-sass",
     "version": "0.1.0",
+    "license" : "GNU General Public License (GPL)" ,
     "devDependencies": {
         "grunt": "^1.0.4",
         "grunt-contrib-compass": "^1.1.1",
-        "grunt-contrib-concat": "^0.5.1",
+        "grunt-contrib-concat": "^1.0.1",
         "grunt-contrib-cssmin": "^3.0.0",
         "grunt-contrib-imagemin": "^3.1.0",
         "grunt-contrib-jshint": "^2.1.0",
         "grunt-contrib-nodeunit": "^2.0.0",
-        "grunt-contrib-sass": "^0.9.2",
-        "grunt-contrib-uglify": "^0.11.1",
+        "grunt-contrib-sass": "^1.0.0",
+        "grunt-contrib-uglify": "^4.0.1",
         "grunt-contrib-watch": "^1.1.0"
     },
     "dependencies": {
-        "bootstrap": "^4.3.1"
+        "jquery": "^3.4.1",
+        "popper.js": "^1.15.0"
+    },
+    "peerDependencies": {
+        "jquery": "3",
+        "popper.js": "^1.15.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/hettipower/bootstrap4-sass.git"
     }
 }
