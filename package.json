@@ -1,7 +1,7 @@
 {
     "name": "bootstrap4-sass",
     "version": "0.1.0",
-    "license" : "GNU General Public License (GPL)" ,
+    "license": "GNU General Public License (GPL)",
     "devDependencies": {
         "grunt": "^1.0.4",
         "grunt-contrib-compass": "^1.1.1",
@@ -15,7 +15,7 @@
         "grunt-contrib-watch": "^1.1.0"
     },
     "dependencies": {
-        "jquery": "^3.4.1",
+        "jquery": "^3.5.1",
         "popper.js": "^1.15.0"
     },
     "peerDependencies": {
